@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Stringincre {
 
     public static void solution(String s) {
@@ -31,13 +33,9 @@ public class Stringincre {
     }
 
     public static void main(String[] args) {
-        String s = "abcd";
-        String s1 ="abcadc";
-        String s2="na4";
+        Scanner sc =new Scanner(System.in);
+        System.out.print("Enter your String:");
+        String s =sc.nextLine();
         solution(s);
-        System.out.println();
-        solution(s1);
-        System.out.println();
-        solution(s2);
     }
 }
