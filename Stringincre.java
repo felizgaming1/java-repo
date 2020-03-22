@@ -12,13 +12,14 @@ public class Stringincre {
                 System.exit(0);
             }
 
-         
+           //for searching same char
             for (int j = i; j >= 0; j--) {
                 if (s.charAt(i) == s.charAt(j)) {
                     ans[i] = ans[j];
 
                 }
             }
+            //for new char
             if (ans[i] == 0) {
                 ans[i] = ++flag;
             }
