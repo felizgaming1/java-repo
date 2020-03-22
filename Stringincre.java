@@ -6,13 +6,13 @@ public class Stringincre {
         int[] ans = new int[len];
 
         for (int i = 0; i < len; i++) {
+           //if there is digit in the string
             if (Character.isDigit(s.charAt(i)) ) {
                 System.out.println("ERROR");
                 System.exit(0);
             }
-            if (i == 0) {
-                ans[i] = ++flag;
-            }
+
+         
             for (int j = i; j >= 0; j--) {
                 if (s.charAt(i) == s.charAt(j)) {
                     ans[i] = ans[j];
