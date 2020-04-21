@@ -1,5 +1,3 @@
-package sample;
-
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -17,7 +15,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 
-public class Order_APP extends Application {
+public class Main extends Application {
 
     Button Reset, OK, Cancel;
     Text Welcome, item, extra_item, pcs;
